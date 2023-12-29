@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\PPI_web_Api.props" />
-</Project>
