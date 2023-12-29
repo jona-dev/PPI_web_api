@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPI_web_Api", "PPI_web_Api\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB", "DB\DB.csproj", "{F39C6FA3-F8F1-4837-9C02-F0B097124B12}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPI_Test", "PPI_Test\PPI_Test.csproj", "{643612D5-4C08-42EF-A477-56096BD05FF4}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{93F62347-EF25-41B3-887F-2C7CDD85AE49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPI_Test", "PPI_Test\PPI_Test.csproj", "{643612D5-4C08-42EF-A477-56096BD05FF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{643612D5-4C08-42EF-A477-56096BD05FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{643612D5-4C08-42EF-A477-56096BD05FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{643612D5-4C08-42EF-A477-56096BD05FF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93F62347-EF25-41B3-887F-2C7CDD85AE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93F62347-EF25-41B3-887F-2C7CDD85AE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93F62347-EF25-41B3-887F-2C7CDD85AE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93F62347-EF25-41B3-887F-2C7CDD85AE49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

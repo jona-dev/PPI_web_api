@@ -7,7 +7,6 @@ using System.Text;
 using PPI_web_Api.DB;
 using PPI_web_Api.Service;
 using PPI_web_Api.Mapper;
-using Microsoft.EntityFrameworkCore.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,7 +56,6 @@ var app = builder.Build();
 using( var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<DbPPIContext>();
-    context.Database.EnsureCreated();
     context.Database.Migrate();
 
     scope.ServiceProvider.GetRequiredService<InitialData>().InitAll();
